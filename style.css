@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(211, 211, 211, 0.521);
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: grey;
+    font-size: 15px
+}
+
+.box1, .box2, .box3{
+    background-color: whitesmoke;
+    width: 450px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(128, 128, 128, 0.158);
+    display: block;
+    padding: 25px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto ;
+
+}
+
+/* Photo de Tim Berners-lee DONE */
+.PhotoTBL{
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightgrey;
+    border-radius: 100%
+}
+
+h1{
+    color: rgb(245, 81, 81)
+}
+
+.pLink{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(245, 81, 81);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px
+}
+
+article{
+    display: flex
+}
+
+div ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding: 40px
+}
+
+div li{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+}
+
+p{
+    text-align: justify;
+    line-height: 25px;
+    padding: 10px;
+    margin-top: 0
+}
+
+.img{
+    width: 85px;
+    height: 130px;
+    margin: 15px
+}
+
+h3{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.article{
+    margin: 20px
+}
